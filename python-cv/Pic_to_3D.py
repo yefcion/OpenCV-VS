@@ -9,7 +9,7 @@ from matplotlib.ticker import LinearLocator, FormatStrFormatter
 fig = plt.figure(figsize=(16,12))
 ax = fig.gca(projection="3d")
 
-img = cv.imread("23.jpg")
+img = cv.imread("tina.jpg")
 img = cv.cvtColor(img,cv.COLOR_BGR2GRAY)
 imgd = np.array(img)      # image类 转 numpy
 
